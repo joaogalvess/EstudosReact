@@ -39,3 +39,14 @@
     * O propósito é descomplicar os nós do descomplicar
     * A sintaxe é <> e </>, não há um nome para a tags
     * Criamos no próprio JSX
+
+// Avançando em Props
+    * Podemos definir tipos para as props, realizando uma especie de validação(isRequired, number)
+    * Definimos em um objeto chamado propsTypes no propio componente
+    * E ainda há a possibilidade de definir um valor padrão
+    * Neste caso Utilizamos o objeto defaultProps
+
+// Eventos em Reacts
+    * Os eventos de React são os mesmos eventos do descomplicar,ou seja, temos eventos para responder a um click
+    * O evento é atrelado a uma tag que irá executá-lo, geralmente um método é atribuido ao evento
+    * Este método deve ser criado no componente

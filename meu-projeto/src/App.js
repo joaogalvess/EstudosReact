@@ -4,6 +4,8 @@ import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 import List from "./components/List";
+import Evento from "./components/Evento";
+import Form from "./components/Form";
 function App() {
   // Declara variaveis
   const nome = "João Gabriel";
@@ -51,6 +53,19 @@ function App() {
       {/* Renderização de listas */}
       {/* Utilizando o componente List */}
       <List />
+      {/* ----------------------------------------- */}
+      {/* Avançando em Props */}
+      <List />
+      {/* ----------------------------------------- */}
+      {/* Eventos */}
+      <p>Testando Eventos</p>
+      <Evento />
+      <Evento numero="1" />
+      <Evento numero="2" />
+      {/* ----------------------------------------- */}
+      {/* Formulários */}
+      <h1>Testando Formulários</h1>
+      <Form />
     </div>
   );
 }
