@@ -33,3 +33,9 @@
     * O CSS pode ser adicionado de forma global na aplicação, por meio do arquivo index.css por exemplo
     * Porém, é possivel estilizar a nivel de componentes Utilizamos o CSS modules para isso, Basta criar um arquivo como: Comoponente.module.css;
     * E importar / chamar este CSS no componente;
+
+// Fragmentos
+    * Os Reacts Fragments permite a criação de um componente sem elemento pai
+    * O propósito é descomplicar os nós do descomplicar
+    * A sintaxe é <> e </>, não há um nome para a tags
+    * Criamos no próprio JSX

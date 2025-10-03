@@ -3,7 +3,7 @@ import "./App.css";
 import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
-
+import List from "./components/List";
 function App() {
   // Declara variaveis
   const nome = "João Gabriel";
@@ -47,6 +47,10 @@ function App() {
       {/* ---------------------------------------------- */}
       {/* Adicionando o CSS */}
       <h1>Teste de CSS em React</h1>
+      {/* ---------------------------------------------- */}
+      {/* Renderização de listas */}
+      {/* Utilizando o componente List */}
+      <List />
     </div>
   );
 }

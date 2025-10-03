@@ -1,6 +1,7 @@
 /* Usando o metodo index.css para fazer as edições no HTML */
 body {
   padding: 50px;
+  padding-bottom: 500px;
   background-color: rgb(211, 255, 255);
 }
 
