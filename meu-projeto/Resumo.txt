@@ -1,0 +1,35 @@
+// criação do projeto
+    npx create-react-app (nomedoprojeto)
+
+// para entrar na pasta do projeto
+    cd meu-projeto
+// para rodar o projeto em uma navegador
+    npx start
+
+// Entendendo o JSX
+    * JSX é como o HTML, porém dentro do código JavaScript
+    * É a principal maneira de escrever HTML com react
+    * Podemos interpolar variáveis, inserindo elas entre {}
+    * É possivel executar funções em JSX
+    * Inserir novos valores em atributos de tags tambem é valido em JSX
+
+// COMPONENTES (Aula 04)
+    * Permite dividir a aplicação em partes
+    * Os componentes renderizam JSX, assim como App.js(que é um componente)
+    * Pricisamos criar um arquivo de componentes
+    * E importa-lo onde precisamos utilizar
+    * Normalmente ficam em uma pasta chamada components
+
+// Props
+    * As props são valores passados para os componentes
+      Componente filho recebe do componente pai
+    * Podemos deixalos dinâmicos
+    * Ou seja, mudando a execução por causa do valor props
+    * O valor é passado como um atributo na chamada de componente
+    * E precisa ser resgatado dentro de um propriedade/argumento chamada props na função de definição do componente
+    * As porps são somente de leitura
+
+// Adicionando CSS
+    * O CSS pode ser adicionado de forma global na aplicação, por meio do arquivo index.css por exemplo
+    * Porém, é possivel estilizar a nivel de componentes Utilizamos o CSS modules para isso, Basta criar um arquivo como: Comoponente.module.css;
+    * E importar / chamar este CSS no componente;

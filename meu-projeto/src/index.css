@@ -1,0 +1,10 @@
+/* Usando o metodo index.css para fazer as edições no HTML */
+body {
+  padding: 50px;
+  background-color: rgb(211, 255, 255);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}

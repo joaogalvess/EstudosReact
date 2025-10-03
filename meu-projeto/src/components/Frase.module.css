@@ -1,0 +1,12 @@
+/* Outra forma de utilizar o css e aplicalo em modulos  */
+/* OBS.: não é possivel criar classes com traço " - " ex. frase-container*/
+.fraseContainer {
+  blackground-color: #333;
+  border: 1px solid #111;
+}
+.fraseContent {
+  color: #fff;
+  blackground-color: #333;
+  margin: 0;
+}
+/*  */
